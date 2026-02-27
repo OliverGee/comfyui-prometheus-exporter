@@ -1,0 +1,16 @@
+#  Edit the following fields to match your project
+
+[project]
+name = "comfyui-prometheus-exporter"
+description = "A standalone custom node that creates a Prometheus-compatible metrics endpoint within the ComfyUI installation."
+version = "1.0.0" # Custom Node version. Must be semantically versioned.
+license = { file = "LICENSE" }
+dependencies  = [] # Filled in from requirements.txt
+
+[project.urls]
+Repository = "https://github.com/OliverGee/comfyui-prometheus-exporter"
+
+[tool.comfy]
+PublisherId = "" # TODO (fill in Publisher ID from Comfy Registry Website).
+DisplayName = "ComfyUI Prometheus Exporter" # Display name for the Custom Node. Can be changed later.
+Icon = "https://example.com/icon.png" # SVG, PNG, JPG or GIF (MAX. 800x400px)
