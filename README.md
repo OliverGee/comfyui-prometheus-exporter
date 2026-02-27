@@ -42,7 +42,7 @@ The exporter will **not** override variables already present in the process envi
 
 ## <u>Prometheus Config</u>
 
-```json
+```yaml
 scrape_configs:
   - job_name: 'comfyui'
     static_configs:
