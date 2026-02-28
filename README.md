@@ -48,10 +48,8 @@ scrape_configs:
     static_configs:
       - targets:
         - 127.0.0.1:8188  # ComfyUI URL and Port.
-    metrics_path: /metrics
+    metrics_path: /metrics 
 ```
-
-## 
 
 ## <u>List of Metrics</u>
 
